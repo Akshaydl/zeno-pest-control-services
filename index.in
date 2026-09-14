@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest Control Services Pune</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 50px;
+            text-align: center;
+            background: #66bb6a;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            flex: 1 1 200px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact {
+            background: #c8e6c9;
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pest Control Services</h1>
+    <p>Pune, India</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Professional Pest Control in Pune</h2>
+    <p>Safe | Affordable | Fast Service</p>
+</section>
+
+<div class="container" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Termite Control</h3>
+            <p>Protect your home from termites.</p>
+        </div>
+        <div class="card">
+            <h3>Cockroach Control</h3>
+            <p>Effective cockroach treatment.</p>
+        </div>
+        <div class="card">
+            <h3>Bed Bug Control</h3>
+            <p>Complete bed bug removal.</p>
+        </div>
+        <div class="card">
+            <h3>Rodent Control</h3>
+            <p>Get rid of rats and mice.</p>
+        </div>
+    </div>
+</div>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Call: 8830025321</p>
+
+    <!-- WhatsApp Button -->
+    <a class="btn" href="https://wa.me/918830025321" target="_blank">
+        Chat on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Pest Control Services Pune</p>
+</footer>
+
+</body>
+</html>
